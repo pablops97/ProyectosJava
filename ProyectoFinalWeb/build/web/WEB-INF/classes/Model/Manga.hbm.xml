@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-feb-2024 13:46:17 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Manga" table="MANGA" schema="PABLO" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="titulo" type="string">
+            <column name="TITULO" length="100" />
+        </property>
+        <property name="autor" type="string">
+            <column name="AUTOR" length="100" />
+        </property>
+        <property name="genero" type="string">
+            <column name="GENERO" length="50" />
+        </property>
+        <property name="puntaje" type="java.lang.Double">
+            <column name="PUNTAJE" precision="52" scale="0" />
+        </property>
+        <property name="numVolumenes" type="java.lang.Integer">
+            <column name="NUM_VOLUMENES" />
+        </property>
+        <property name="estado" type="string">
+            <column name="ESTADO" length="20" />
+        </property>
+        <property name="fechaPublicacion" type="date">
+            <column name="FECHA_PUBLICACION" length="10" />
+        </property>
+        <property name="idUsuario" type="java.lang.Integer">
+            <column name="ID_USUARIO" />
+        </property>
+        <property name="imagen" type="string">
+            <column name="IMAGEN" />
+        </property>
+        <property name="precio" type="java.lang.Double">
+            <column name="PRECIO" />
+        </property>
+    </class>
+</hibernate-mapping>

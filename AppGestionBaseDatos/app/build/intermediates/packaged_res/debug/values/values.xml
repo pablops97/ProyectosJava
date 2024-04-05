@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ExamenT7PabloPerezSerrano</string>
+    <string name="botonAceptar">Aceptar</string>
+    <string name="ciudad">Ciudad: </string>
+    <string name="monumento">Monumento: </string>
+    <string name="msgOrdenarCiudad">El metodo de ordenación actual es por ciudad</string>
+    <string name="msgOrdenarMonumento">El metodo de ordenación actual es por monumento</string>
+    <string name="nombreSharedPreferences">Ordenamiento</string>
+    <string name="ordenar">ordenar</string>
+    <string name="tituloAlertDialog">Metodo de ordenación actual</string>
+    <style name="Base.Theme.ExamenT7PabloPerezSerrano" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ExamenT7PabloPerezSerrano" parent="Base.Theme.ExamenT7PabloPerezSerrano"/>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExamenT7PabloPerezSerrano</string>
+    <string name="monumento">Monumento: </string>
+    <string name="ciudad">Ciudad: </string>
+    <string name="nombreSharedPreferences">Ordenamiento</string>
+    <string name="ordenar">ordenar</string>
+    <string name="tituloAlertDialog">Metodo de ordenación actual</string>
+    <string name="msgOrdenarCiudad">El metodo de ordenación actual es por ciudad</string>
+    <string name="msgOrdenarMonumento">El metodo de ordenación actual es por monumento</string>
+    <string name="botonAceptar">Aceptar</string>
+</resources>

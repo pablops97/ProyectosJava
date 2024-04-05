@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id itemOrdenarNombreCiudad
+id itemOrdenarNombreMonumento
+id materialToolbar
+id nombreCiudad
+id nombreMonumento
+id rv
+id textView3
+id textView4
+layout activity_main
+layout cv
+menu menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string botonAceptar
+string ciudad
+string monumento
+string msgOrdenarCiudad
+string msgOrdenarMonumento
+string nombreSharedPreferences
+string ordenar
+string tituloAlertDialog
+style Base.Theme.ExamenT7PabloPerezSerrano
+style Theme.ExamenT7PabloPerezSerrano
+xml backup_rules
+xml data_extraction_rules
